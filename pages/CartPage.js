@@ -11,6 +11,8 @@ export class CartPage {
         this.totalPrice = "h3#totalp"
     }
 
+    /* Deletes product by name */
+
     async deleteProductByName(prodName) {
         await this.page.waitForTimeout(4000);
         const products = this.page.locator(this.noOfProducts);
