@@ -45,3 +45,13 @@ playwright-demoblaze/
     └── workflows/
         └── playwright.yml
 
+<h3>Setup</h3>
+
+#### 1. Clone the repository
+git clone https://github.com/<your-username>/playwright-demoblaze.git
+cd playwright-demoblaze
+
+#### 2. Install dependencies
+    -- npm install
+
+
