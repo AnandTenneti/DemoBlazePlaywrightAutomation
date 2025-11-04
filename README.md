@@ -52,6 +52,14 @@ git clone https://github.com/<your-username>/playwright-demoblaze.git
 cd playwright-demoblaze
 
 #### 2. Install dependencies
-    -- npm install
+       npm install
+
+### 3. Install Playwright browsers
+       npx playwright install
+<h3>Running tests</h3>
+
+ ### Run all tests
+     npx playwright test
+
 
 
