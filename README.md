@@ -81,6 +81,8 @@ The suite includes automated tests for:
 
 🛒 Cart – add, verify, and remove products
 
+### Utilities
+
 Helpers: Common reusable functions (e.g., convert strings to numbers, random data).
 
 POM Design: Each page contains its own selectors and methods for easy maintenance.
