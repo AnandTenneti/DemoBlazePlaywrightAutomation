@@ -7,13 +7,13 @@ It validates the core functionalities of the Demoblaze
 
 The framework is designed for:
 
-Cross-browser testing (Chromium, Firefox, WebKit)
+* Cross-browser testing (Chromium, Firefox, WebKit)
 
-Scalable test organization using Page Object Model (POM)
+* Scalable test organization using Page Object Model (POM)
 
-Easy integration with CI/CD pipelines
+* Easy integration with CI/CD pipelines
 
-Reusable utilities and helpers# DemoBlazePlaywrightAutomation
+* Reusable utilities and helpers# DemoBlazePlaywrightAutomation
 
 Project Structure
 
