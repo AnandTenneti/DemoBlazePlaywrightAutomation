@@ -1,4 +1,4 @@
-Overview
+<h1>Overview</h1>
 
 This project is an end-to-end test automation framework built using Microsoft Playwright.
 It validates the core functionalities of the Demoblaze web application, including:
@@ -21,7 +21,8 @@ Order placement
 ✅ Configurable test data via JSON or environment variables.  
 ✅ CI/CD-ready with GitHub Actions workflow.   
 
-Project Structure
+### Project Structure
+```
 playwright-demoblaze/
 ├── pages/
 │   ├── HomePage.js
@@ -49,10 +50,11 @@ playwright-demoblaze/
 └── .github/
     └── workflows/
         └── playwright.yml
+```
 
 Setup
 
-Clone the repository
+#### Clone the repository
 
 git clone https://github.com/<your-username>/playwright-demoblaze.git
 cd playwright-demoblaze
