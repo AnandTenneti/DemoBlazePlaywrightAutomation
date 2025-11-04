@@ -1,5 +1,5 @@
-Overview
-
+<h1>Overview</h1>
+**
 This project is an automated end-to-end testing framework built using Microsoft Playwright
 .
 It validates the core functionalities of the Demoblaze
@@ -14,6 +14,7 @@ The framework is designed for:
 * Easy integration with CI/CD pipelines
 
 * Reusable utilities and helpers# DemoBlazePlaywrightAutomation
+**
 
 Project Structure
 ```
@@ -44,6 +45,7 @@ playwright-demoblaze/
 └── .github/
     └── workflows/
         └── playwright.yml
+```
 
 <h3>Setup</h3>
 
