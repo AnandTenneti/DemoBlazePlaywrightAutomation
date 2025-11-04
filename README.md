@@ -16,7 +16,7 @@ The framework is designed for:
 * Reusable utilities and helpers# DemoBlazePlaywrightAutomation
 
 Project Structure
-'''
+```
 playwright-demoblaze/
 ├── pages/
 │   ├── HomePage.js
@@ -44,7 +44,7 @@ playwright-demoblaze/
 └── .github/
     └── workflows/
         └── playwright.yml
-        '''
+        ```
 
 <h3>Setup</h3>
 
