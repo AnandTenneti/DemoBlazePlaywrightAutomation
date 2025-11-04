@@ -11,7 +11,7 @@ User signup/login
 
 Order placement
 
-Key Features
+### Key Features
 
 ✅ Page Object Model (POM) – modular and maintainable design
 ✅ Detailed test steps and assertions using test.step()
