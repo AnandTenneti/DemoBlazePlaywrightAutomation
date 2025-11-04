@@ -1,23 +1,27 @@
-<h1>Overview</h1>
+Overview
 
-**This project is an automated end-to-end testing framework built using Microsoft Playwright
-.
-It validates the core functionalities of the Demoblaze
- web application, including product browsing, adding to cart, user signup/login, and order placement.
+This project is an end-to-end test automation framework built using Microsoft Playwright.
+It validates the core functionalities of the Demoblaze web application, including:
 
-The framework is designed for:
+Product browsing
 
-- Cross-browser testing (Chromium, Firefox, WebKit)
+Adding items to the cart
 
-- Scalable test organization using Page Object Model (POM)
+User signup/login
 
-- Easy integration with CI/CD pipelines
+Order placement
 
-- Reusable utilities and helpers# DemoBlazePlaywrightAutomation**
+Key Features
+
+✅ Page Object Model (POM) – modular and maintainable design
+✅ Detailed test steps and assertions using test.step()
+✅ Automatic screenshots on failure
+✅ Custom utility functions for data parsing, waits, and logging
+✅ Cross-browser and parallel test execution
+✅ Configurable test data via JSON or environment variables
+✅ CI/CD-ready with GitHub Actions workflow
 
 Project Structure
-
-```
 playwright-demoblaze/
 ├── pages/
 │   ├── HomePage.js
@@ -45,67 +49,56 @@ playwright-demoblaze/
 └── .github/
     └── workflows/
         └── playwright.yml
-```
 
-<h3>Setup</h3>
+Setup
 
-#### 1. Clone the repository
+Clone the repository
 
 git clone https://github.com/<your-username>/playwright-demoblaze.git
 cd playwright-demoblaze
 
-#### 2. Install dependencies
 
-       npm install
+Install dependencies
 
-### 3. Install Playwright browsers
+npm install
 
-       npx playwright install
 
-<h3>Running tests</h3>
+Install Playwright browsers
 
-### Run all tests
+npx playwright install
 
-     npx playwright test
+Running Tests
 
-### Test Scenarios
+Run all tests
 
-The suite includes automated tests for:
+npx playwright test
+
+Test Scenarios
 
 🏠 Home Page – carousel images, navigation links, product list
 
-🧑‍💻 Sign Up – verify existing/new user registration
+🧑‍💻 Sign Up – verify new and existing user registration
 
 🔐 Login – login/logout flow
 
 🛒 Cart – add, verify, and remove products
 
-### Utilities
+Utilities
 
-Helpers: Common reusable functions (e.g., convert strings to numbers, random data).
+Helpers: Common reusable functions (e.g., string-to-number conversion, random data)
 
-POM Design: Each page contains its own selectors and methods for easy maintenance.
+POM Design: Each page encapsulates its selectors and methods for easy maintenance
 
-Screenshots: Captured automatically on test failures.
-
-🧩 Key Features
-```
-✅ Page Object Model (POM) – modular and maintainable
-✅ Test Steps & Assertions – descriptive test flow with Playwright’s test.step()
-✅ Automatic screenshots on failure
-✅ Custom utility functions for data parsing, waits, and logging
-✅ Cross-browser & parallel test execution
-✅ Configurable test data via JSON or environment variables
-✅ CI/CD ready with example GitHub Actions workflow ```
+Screenshots: Captured automatically on test failures
 
 📸 Test Artifacts
 
-After each run, Playwright stores:
+After each run, Playwright generates:
 
-HTML reports: playwright-report/index.html
+HTML report: playwright-report/index.html
 
 Screenshots & videos (on failure): test-results/
 
 To open the report:
 
-    npx playwright show-report
+npx playwright show-report
