@@ -7,16 +7,17 @@ It validates the core functionalities of the Demoblaze
 
 The framework is designed for:
 
-* Cross-browser testing (Chromium, Firefox, WebKit)
+- Cross-browser testing (Chromium, Firefox, WebKit)
 
-* Scalable test organization using Page Object Model (POM)
+- Scalable test organization using Page Object Model (POM)
 
-* Easy integration with CI/CD pipelines
+- Easy integration with CI/CD pipelines
 
-* Reusable utilities and helpers# DemoBlazePlaywrightAutomation
-**
+- Reusable utilities and helpers# DemoBlazePlaywrightAutomation
+  \*\*
 
 Project Structure
+
 ```
 playwright-demoblaze/
 ├── pages/
@@ -50,18 +51,38 @@ playwright-demoblaze/
 <h3>Setup</h3>
 
 #### 1. Clone the repository
+
 git clone https://github.com/<your-username>/playwright-demoblaze.git
 cd playwright-demoblaze
 
 #### 2. Install dependencies
+
        npm install
 
 ### 3. Install Playwright browsers
+
        npx playwright install
+
 <h3>Running tests</h3>
 
- ### Run all tests
+### Run all tests
+
      npx playwright test
 
+### Test Scenarios
 
+The suite includes automated tests for:
 
+🏠 Home Page – carousel images, navigation links, product list
+
+🧑‍💻 Sign Up – verify existing/new user registration
+
+🔐 Login – login/logout flow
+
+🛒 Cart – add, verify, and remove products
+
+Helpers: Common reusable functions (e.g., convert strings to numbers, random data).
+
+POM Design: Each page contains its own selectors and methods for easy maintenance.
+
+Screenshots: Captured automatically on test failures.
