@@ -82,7 +82,7 @@ Test Scenarios
 
 🛒 Cart – add, verify, and remove products
 
-Utilities
+## Utilities
 
 Helpers: Common reusable functions (e.g., string-to-number conversion, random data)
 
@@ -90,7 +90,7 @@ POM Design: Each page encapsulates its selectors and methods for easy maintenanc
 
 Screenshots: Captured automatically on test failures
 
-📸 Test Artifacts
+## 📸 Test Artifacts
 
 After each run, Playwright generates:
 
