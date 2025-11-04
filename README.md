@@ -1,6 +1,6 @@
 <h1>Overview</h1>
-**
-This project is an automated end-to-end testing framework built using Microsoft Playwright
+
+**This project is an automated end-to-end testing framework built using Microsoft Playwright
 .
 It validates the core functionalities of the Demoblaze
  web application, including product browsing, adding to cart, user signup/login, and order placement.
@@ -13,8 +13,7 @@ The framework is designed for:
 
 - Easy integration with CI/CD pipelines
 
-- Reusable utilities and helpers# DemoBlazePlaywrightAutomation
-  \*\*
+- Reusable utilities and helpers# DemoBlazePlaywrightAutomation**
 
 Project Structure
 
