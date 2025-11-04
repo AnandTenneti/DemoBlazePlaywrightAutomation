@@ -87,3 +87,24 @@ Helpers: Common reusable functions (e.g., convert strings to numbers, random dat
 POM Design: Each page contains its own selectors and methods for easy maintenance.
 
 Screenshots: Captured automatically on test failures.
+
+🧩 Key Features
+
+✅ Page Object Model (POM) – modular and maintainable
+✅ Test Steps & Assertions – descriptive test flow with Playwright’s test.step()
+✅ Automatic screenshots on failure
+✅ Custom utility functions for data parsing, waits, and logging
+✅ Cross-browser & parallel test execution
+✅ Configurable test data via JSON or environment variables
+✅ CI/CD ready with example GitHub Actions workflow
+
+📸 Test Artifacts
+
+After each run, Playwright stores:
+
+HTML reports: playwright-report/index.html
+
+Screenshots & videos (on failure): test-results/
+
+To open the report:
+    npx playwright show-report
