@@ -16,10 +16,10 @@ Order placement
 ✅ Page Object Model (POM) – modular and maintainable design  
 ✅ Detailed test steps and assertions using test.step()  
 ✅ Automatic screenshots on failure  
-✅ Custom utility functions for data parsing, waits, and logging. 
-✅ Cross-browser and parallel test execution. 
-✅ Configurable test data via JSON or environment variables. 
-✅ CI/CD-ready with GitHub Actions workflow. 
+✅ Custom utility functions for data parsing, waits, and logging.  
+✅ Cross-browser and parallel test execution.  
+✅ Configurable test data via JSON or environment variables.  
+✅ CI/CD-ready with GitHub Actions workflow.   
 
 Project Structure
 playwright-demoblaze/
