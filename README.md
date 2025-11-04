@@ -107,4 +107,5 @@ HTML reports: playwright-report/index.html
 Screenshots & videos (on failure): test-results/
 
 To open the report:
+
     npx playwright show-report
