@@ -62,16 +62,15 @@ cd playwright-demoblaze
 
     npm install
 
+#### Install Playwright browsers
 
-Install Playwright browsers
-
-npx playwright install
+    npx playwright install
 
 Running Tests
 
-Run all tests
+#### Run all tests
 
-npx playwright test
+    npx playwright test
 
 Test Scenarios
 
@@ -101,4 +100,4 @@ Screenshots & videos (on failure): test-results/
 
 To open the report:
 
-npx playwright show-report
+    npx playwright show-report
