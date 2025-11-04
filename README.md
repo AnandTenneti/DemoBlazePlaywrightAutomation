@@ -44,7 +44,6 @@ playwright-demoblaze/
 └── .github/
     └── workflows/
         └── playwright.yml
-        ```
 
 <h3>Setup</h3>
 
