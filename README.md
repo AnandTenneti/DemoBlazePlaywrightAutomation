@@ -21,9 +21,10 @@ Order placement
 ✅ Custom utility functions for data parsing, waits, and logging.  
 ✅ Cross-browser and parallel test execution.  
 ✅ Configurable test data via JSON or environment variables.  
-✅ CI/CD-ready with GitHub Actions workflow.   
+✅ CI/CD-ready with GitHub Actions workflow.
 
 ## Project Structure
+
 ```
 playwright-demoblaze/
 .
@@ -71,12 +72,20 @@ playwright-demoblaze/
 ## Setup
 
 ### Clone the repository
+
 ```
+# Clone the respository
 git clone https://github.com/<your-username>/playwright-demoblaze.git
-cd playwright-demoblaze 
+
+# Navigate to the project directory
+cd playwright-demoblaze
+
+# Install dependencies
+    npm install
 
 ```
 
+<!--
 
 ### Install dependencies
 ```
@@ -86,22 +95,26 @@ cd playwright-demoblaze
 ### Install Playwright browsers
 
 ```
-    npx playwright install 
+    npx playwright install
 ```
+-->
 
 ## Running Tests
 
 ### Run all tests
+
 ```
     npx playwright test
 ```
 
 ### Run a specific test
+
 ```
     npx playwright test tests/logintest.spec.js
 ```
 
 ### Run in headed mode (visible browser)
+
 ```
     npx playwright test --headed
 ```
@@ -130,10 +143,10 @@ After each run, Playwright generates:
 
 **HTML report**: playwright-report/index.html
 
-__Screenshots & videos (on failure)__: test-results/
+**Screenshots & videos (on failure)**: test-results/
 
 To open the report:
 
-```    
-npx playwright show-report
+```
+    npx playwright show-report
 ```
