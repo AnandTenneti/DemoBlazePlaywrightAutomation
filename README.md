@@ -1,3 +1,5 @@
+# Playwright DemoBlaze Automation
+
 ## Overview
 
 This project is an end-to-end test automation framework built using Microsoft Playwright.
@@ -105,11 +107,11 @@ cd playwright-demoblaze
 
 ## Utilities
 
-Helpers: Common reusable functions (e.g., string-to-number conversion, random data)
+** Helpers **: Common reusable functions (e.g., string-to-number conversion, random data)
 
-POM Design: Each page encapsulates its selectors and methods for easy maintenance
+** POM Design **: Each page encapsulates its selectors and methods for easy maintenance
 
-Screenshots: Captured automatically on test failures
+** Screenshots **: Captured automatically on test failures
 
 ## 📸 Test Artifacts
 
