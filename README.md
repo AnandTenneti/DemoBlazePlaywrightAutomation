@@ -117,9 +117,9 @@ cd playwright-demoblaze
 
 After each run, Playwright generates:
 
-HTML report: playwright-report/index.html
+**HTML report**: playwright-report/index.html
 
-Screenshots & videos (on failure): test-results/
+__Screenshots & videos (on failure)__: test-results/
 
 To open the report:
 
