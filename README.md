@@ -105,13 +105,13 @@ cd playwright-demoblaze
 
 ## Test Scenarios
 
-🏠 Home Page – carousel images, navigation links, product list
+| Area              | Description                                     |
+| ----------------- | ----------------------------------------------- |
+| 🏠 **Home Page**  | Carousel images, navigation links, product list |
+| 🧑‍💻 **Sign Up** | Validate new and existing user registration     |
+| 🔐 **Login**      | Login and logout flow                           |
+| 🛒 **Cart**       | Add, verify, and remove products                |
 
-🧑‍💻 Sign Up – verify new and existing user registration
-
-🔐 Login – login/logout flow
-
-🛒 Cart – add, verify, and remove products
 
 ## Utilities
 
