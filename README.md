@@ -83,17 +83,16 @@ cd playwright-demoblaze
 
 ### Install Playwright browsers
 
-    ``` 
+```
     npx playwright install 
-    
-    ```
+```
 
 ## Running Tests
 
 ### Run all tests
-
+```
     npx playwright test
-
+```
 ## Test Scenarios
 
 🏠 Home Page – carousel images, navigation links, product list
@@ -122,4 +121,6 @@ Screenshots & videos (on failure): test-results/
 
 To open the report:
 
-    npx playwright show-report
+```    
+npx playwright show-report
+```
