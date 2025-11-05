@@ -95,6 +95,17 @@ cd playwright-demoblaze
 ```
     npx playwright test
 ```
+
+### Run a specific test
+```
+    npx playwright test tests/logintest.spec.js
+```
+
+### Run in headed mode (visible browser)
+```
+    npx playwright test --headed
+```
+
 ## Test Scenarios
 
 🏠 Home Page – carousel images, navigation links, product list
