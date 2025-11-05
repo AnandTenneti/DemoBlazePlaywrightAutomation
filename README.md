@@ -71,16 +71,22 @@ playwright-demoblaze/
 ### Clone the repository
 ```
 git clone https://github.com/<your-username>/playwright-demoblaze.git
-cd playwright-demoblaze ```
+cd playwright-demoblaze 
+
+```
 
 
 ### Install dependencies
-
-   ``` npm install ```
+'''
+    npm install
+ ```
 
 ### Install Playwright browsers
 
-    ```npx playwright install ```
+    ``` 
+    npx playwright install 
+    
+    ```
 
 ## Running Tests
 
