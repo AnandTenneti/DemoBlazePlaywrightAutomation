@@ -24,32 +24,46 @@ Order placement
 ### Project Structure
 ```
 playwright-demoblaze/
-├── pages/
-│   ├── HomePage.js
-│   ├── HeaderPage.js
-│   ├── SignUpPage.js
-│   ├── CartPage.js
-│   └── ProductPage.js
-│
-├── tests/
-│   ├── standalone/
-│   │   ├── signup.spec.js
-│   │   ├── placeorder.spec.js
-│   │   └── carousel.spec.js
-│   └── regression/
-│       └── fullflow.spec.js
-│
-├── utils/
-│   ├── helpers.js
-│   ├── testData.js
-│   └── logger.js
-│
-├── playwright.config.js
+.
+├── package-lock.json
 ├── package.json
+├── pages
+│   ├── CartPage.js
+│   ├── ContactUsPage.js
+│   ├── HeaderPage.js
+│   ├── HomePage.js
+│   ├── LoginPage.js
+│   ├── PlaceOrder.js
+│   ├── ProductDetailsPage.js
+│   └── SignUpPage.js
+├── playwright-report
+│   ├── data
+│   │   └── fb2c80521cdcda9b08033de051975060e06b9fcb.md
+│   └── index.html
+├── playwright.config.js
 ├── README.md
-└── .github/
-    └── workflows/
-        └── playwright.yml
+├── test-results
+│   └── baseTests-productdetailstest-Get-Product-Details-chromium
+│       └── error-context.md
+├── tests
+│   ├── baseTests
+│   │   ├── BaseTest.spec.js
+│   │   ├── carttest.spec.js
+│   │   ├── contactustest.spec.js
+│   │   ├── placeordertest.spec.js
+│   │   └── productdetailstest.spec.js
+│   ├── datadriventest.spec.js
+│   ├── example.spec.js
+│   ├── homepagetest.spec.js
+│   ├── logintest.spec.js
+│   └── standalonetests
+│       ├── homepagetest.spec.js
+│       ├── logintest.spec.js
+│       └── signuptest.spec.js
+└── utils
+    ├── testdata.js
+    └── utilities.js
+
 ```
 
 Setup
