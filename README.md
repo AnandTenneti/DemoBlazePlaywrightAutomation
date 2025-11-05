@@ -77,7 +77,7 @@ cd playwright-demoblaze
 
 
 ### Install dependencies
-'''
+```
     npm install
  ```
 
