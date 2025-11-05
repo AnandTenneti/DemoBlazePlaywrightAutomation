@@ -69,9 +69,7 @@ playwright-demoblaze/
 
 ```
 
-## Setup
-
-### Clone the repository
+## Installation
 
 ```
 # Clone the respository
@@ -85,39 +83,25 @@ cd playwright-demoblaze
 
 ```
 
-<!--
-
-### Install dependencies
-```
-    npm install
- ```
-
-### Install Playwright browsers
-
-```
-    npx playwright install
-```
--->
-
 ## Running Tests
 
-### Run all tests
-
 ```
+# Run all tests
     npx playwright test
-```
 
-### Run a specific test
-
-```
+# Run a specific test
     npx playwright test tests/logintest.spec.js
-```
 
-### Run in headed mode (visible browser)
-
-```
+# Run in headed mode (visible browser)
     npx playwright test --headed
+
+# Generate and view report
+    npx playwright show-report
+
 ```
+
+
+
 
 ## Test Scenarios
 
