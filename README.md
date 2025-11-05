@@ -21,7 +21,7 @@ It validates the core functionalities of the Demoblaze web application, includin
 ✅ Custom utility functions for data parsing, waits, and logging.  
 ✅ Cross-browser and parallel test execution.  
 ✅ Configurable test data via JSON or environment variables.  
-✅ CI/CD-ready with GitHub Actions workflow.
+🚧 CI/CD-ready with GitHub Actions workflow.
 
 ## Project Structure
 
