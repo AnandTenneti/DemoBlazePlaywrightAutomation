@@ -1,19 +1,19 @@
 # Playwright DemoBlaze Automation
 
-## Overview
+## 📘 Overview
 
 This project is an end-to-end test automation framework built using Microsoft Playwright.
 It validates the core functionalities of the Demoblaze web application, including:
 
-Product browsing
+*   🛍️ Product browsing
 
-Adding items to the cart
+*   🧺 Adding items to the cart
 
-User signup/login
+*   🔐 User signup & login
 
-Order placement
+*   💳 Order placement
 
-## Key Features
+## ⚙️ Key Features
 
 ✅ Page Object Model (POM) – modular and maintainable design  
 ✅ Detailed test steps and assertions using test.step()  
@@ -99,15 +99,12 @@ cd playwright-demoblaze
     npx playwright show-report
 ```
 
-
-
-
 ## Test Scenarios
 
 | Area              | Description                                     |
 | ----------------- | ----------------------------------------------- |
 | 🏠 **Home Page**  | Carousel images, navigation links, product list |
-| 🧑‍💻 **Sign Up** | Validate new and existing user registration     |
+| 🧑‍💻 **Sign Up**    | Validate new and existing user registration     |
 | 🔐 **Login**      | Login and logout flow                           |
 | 🛒 **Cart**       | Add, verify, and remove products                |
 
