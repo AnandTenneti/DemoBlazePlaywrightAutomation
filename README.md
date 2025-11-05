@@ -111,19 +111,19 @@ cd playwright-demoblaze
 
 ## Utilities
 
-**Helpers**: Common reusable functions (e.g., string-to-number conversion, random data)
+**🧩 Helpers** – Common reusable functions (e.g., string-to-number conversion, random data generation)
 
-**POM Design**: Each page encapsulates its selectors and methods for easy maintenance
+**🧱 Page Object Model (POM)** – Each page encapsulates selectors and actions
 
-**Screenshots**: Captured automatically on test failures
+**📸 Screenshots** – Captured automatically on test failures
 
 ## 📸 Test Artifacts
 
 After each run, Playwright generates:
 
-**HTML report**: playwright-report/index.html
+*   **🧾 HTML Report**: playwright-report/index.html
 
-**Screenshots & videos (on failure)**: test-results/
+*   **📸 Screenshots & Videos**: Stored in test-results/
 
 To open the report:
 
