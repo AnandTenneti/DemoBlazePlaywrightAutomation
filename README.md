@@ -97,7 +97,6 @@ cd playwright-demoblaze
 
 # Generate and view report
     npx playwright show-report
-
 ```
 
 
