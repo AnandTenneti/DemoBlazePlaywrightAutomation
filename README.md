@@ -26,20 +26,16 @@ It validates the core functionalities of the Demoblaze web application, includin
 ## Project Structure
 
 ```
-<details>
-<summary>📁 Project Structure</summary>
-```
-
 playwright-demoblaze/
-├── pages/
-├── tests/
-├── utils/
-├── test-data/
-├── playwright.config.js
-└── README.md
-```
-</details>
-
+├── pages # Page Object Model classes
+├── tests # All Playwright test files 
+├── playwright.config.js # Playwright configuration
+├── screenshots # Capture screenshots on failure
+├── testdata # Input/test data
+└── utils # Custom utility functions
+├── package-lock.json
+├── package.json
+├── README.md
 ```
 
 ## Installation
