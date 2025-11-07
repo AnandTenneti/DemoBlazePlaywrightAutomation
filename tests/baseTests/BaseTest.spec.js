@@ -7,7 +7,7 @@ import { ProductDetailsPage } from '../../pages/ProductDetailsPage'
 import { ContactUs } from '../../pages/ContactUsPage';
 import { CartPage } from '../../pages/CartPage';
 import {PlaceOrder} from '../../pages/PlaceOrder'
-import { categoryData } from '../../utils/testdata';
+import { categoryData } from '../../testdata/testdata';
 
 
 // Extend Playwright's base test
