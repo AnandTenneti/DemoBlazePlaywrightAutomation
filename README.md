@@ -27,14 +27,15 @@ It validates the core functionalities of the Demoblaze web application, includin
 
 ```
 playwright-demoblaze/
+├── package.json # Project metadata
 ├── pages # Page Object Model classes
 ├── tests # All Playwright test files 
 ├── playwright.config.js # Playwright configuration
-├── screenshots # Capture screenshots on failure
 ├── testdata # Input/test data
 └── utils # Custom utility functions
 ├── package-lock.json
-├── package.json
+├── playwright-report/index.html  # HTML report
+├── test-results/ # Screenshots and videos
 ├── README.md
 ```
 
@@ -93,9 +94,3 @@ After each run, Playwright generates:
 *   **🧾 HTML Report**: playwright-report/index.html
 
 *   **📸 Screenshots & Videos**: Stored in test-results/
-
-To open the report:
-
-```
-    npx playwright show-report
-```
