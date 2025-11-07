@@ -28,6 +28,7 @@ It validates the core functionalities of the Demoblaze web application, includin
 ```
 <details>
 <summary>📁 Project Structure</summary>
+```
 
 playwright-demoblaze/
 ├── pages/
@@ -36,6 +37,7 @@ playwright-demoblaze/
 ├── test-data/
 ├── playwright.config.js
 └── README.md
+```
 </details>
 
 ```
