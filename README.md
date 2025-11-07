@@ -26,46 +26,15 @@ It validates the core functionalities of the Demoblaze web application, includin
 ## Project Structure
 
 ```
-playwright-demoblaze/
-.
-├── package-lock.json
-├── package.json
-├── pages
-│   ├── CartPage.js
-│   ├── ContactUsPage.js
-│   ├── HeaderPage.js
-│   ├── HomePage.js
-│   ├── LoginPage.js
-│   ├── PlaceOrder.js
-│   ├── ProductDetailsPage.js
-│   └── SignUpPage.js
-├── playwright-report
-│   ├── data
-│   │   └── fb2c80521cdcda9b08033de051975060e06b9fcb.md
-│   └── index.html
-├── playwright.config.js
-├── README.md
-├── test-results
-│   └── baseTests-productdetailstest-Get-Product-Details-chromium
-│       └── error-context.md
-├── tests
-│   ├── baseTests
-│   │   ├── BaseTest.spec.js
-│   │   ├── carttest.spec.js
-│   │   ├── contactustest.spec.js
-│   │   ├── placeordertest.spec.js
-│   │   └── productdetailstest.spec.js
-│   ├── datadriventest.spec.js
-│   ├── example.spec.js
-│   ├── homepagetest.spec.js
-│   ├── logintest.spec.js
-│   └── standalonetests
-│       ├── homepagetest.spec.js
-│       ├── logintest.spec.js
-│       └── signuptest.spec.js
-└── utils
-    ├── testdata.js
-    └── utilities.js
+📂 DemoBlazePlaywrightAutomation
+┣ 📂 tests # All Playwright test files
+┣ 📂 pages # Page Object Model classes
+┣ 📂 utils # Custom utility functions (waits, logs, etc.)
+┣ 📂 testdata # Input/test data (JSON files)
+┣ 📂 screenshots # Captured screenshots on failure
+┣ 📄 playwright.config.ts # Playwright configuration
+┣ 📄 package.json
+┗ 📄 README.md
 
 ```
 
