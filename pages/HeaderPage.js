@@ -9,7 +9,7 @@ export class HeaderPage {
   constructor(page) {
     this.page = page;
 
-    // Locators
+    // Header navigation locators
     this.aboutus = "//a[normalize-space()='About us']";
     this.contactus = "//a[normalize-space()='Contact']";
     this.login = 'a#login2';
