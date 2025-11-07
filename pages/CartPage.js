@@ -89,7 +89,6 @@ export class CartPage {
    * Verifies whether a specific product is present in the cart.
    * Iterates through all product rows and checks if any product name
    * matches the provided `productName`.
-   *
    * @param {string} productName - The name of the product to verify in the cart.
    * @returns {Promise<boolean>} Returns `true` if the product exists in the cart, otherwise `false`.
    */
@@ -106,6 +105,12 @@ export class CartPage {
     return false;
   }
 
+  /**
+   * Checks if a product is present in the cart and deletes it if found.
+   * (Less precise than deleteProductByName because it matches full row text.)
+   * @param {string} productName - The name of the product to find and delete.
+   * @returns {Promise<void>}
+   */
   async checkProductInCartAndDelete(productName) {
     const productsInCart = await this.page.$$(this.noOfProducts);
     for (const product of productsInCart) {
@@ -116,6 +121,11 @@ export class CartPage {
       }
     }
   }
+
+  /**
+   * Clicks on the "Place Order" button after ensuring the page and button are ready.
+   * @returns {Promise<void>}
+   */
   async clickOnPlaceOrderButton() {
     await this.page.waitForLoadState('domcontentloaded');
 
@@ -137,7 +147,7 @@ export class CartPage {
   async getTotalPrice() {
     // Get the total price text from the specified locator
     const totalPriceTextContent = await this.page.locator(this.totalPrice).textContent();
-    
+
     // Convert text to a number using the utility function toNumber()
     return toNumber(totalPriceTextContent);
   }
