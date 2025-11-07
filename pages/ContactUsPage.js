@@ -9,8 +9,8 @@ export class ContactUs {
         this.closeBtn = "(//button[text()='Close'])[1]"
     }
 
-    async sendMessageToSite(email, name, demommessage) {
-        await this.page.locator(this.contactEmail).fill(email)
+    async sendContactMessage(email, name, demommessage) {
+        await this.page.locator(this.contactEmail,).fill(email)
         await this.page.locator(this.contactName).fill(name)
         await this.page.locator(this.message).fill(demommessage)
          this.page.once('dialog', async dialog => {
@@ -19,13 +19,6 @@ export class ContactUs {
         });
         await this.page.click(this.sendMessageBtn);
     }
-    // async clickSendMessageAndAccept() {
-    //     this.page.once('dialog', async dialog => {
-    //         console.log('Alert message:', dialog.message());
-    //         await dialog.accept();
-    //     });
-    //     await this.page.click(this.sendMessageBtn);
-    // }
     async clickOnCloseButton() {
         await this.page.locator(this.closeBtn).click()
     }
