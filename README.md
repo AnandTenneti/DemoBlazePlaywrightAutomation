@@ -14,14 +14,16 @@ It validates the core functionalities of the Demoblaze web application, includin
 *   💳 Order placement
 
 ## ⚙️ Key Features
+| Feature                                   | Description                                           |
+| ----------------------------------------- | ----------------------------------------------------- |
+| ✅ **Page Object Model (POM)**             | Modular, maintainable, and reusable test design       |
+| 🧩 **Detailed Test Steps**                | Clear reporting using `test.step()` for traceability  |
+| 📸 **Automatic Screenshots**              | Captures screenshots on failures for easier debugging |
+| 🌐 **Cross-Browser & Parallel Execution** | Run tests faster across multiple browsers             |
+| ⚙️ **Configurable Test Data**             | Supports JSON files or environment variables          |
+| 🔄 **Custom Utility Functions**           | Includes helpers for waits, data parsing, and logging |
+| 🚧 **CI/CD Ready**                        | Integrated with GitHub Actions workflow               |
 
-✅ Page Object Model (POM) – modular and maintainable design  
-✅ Detailed test steps and assertions using test.step()  
-✅ Automatic screenshots on failure   
-✅ Cross-browser and parallel test execution.  
-✅ Configurable test data via JSON or environment variables.  
-🔄 Custom utility functions for data parsing, waits, and logging. 
-🚧 CI/CD-ready with GitHub Actions workflow.
 
 ## Project Structure
 
