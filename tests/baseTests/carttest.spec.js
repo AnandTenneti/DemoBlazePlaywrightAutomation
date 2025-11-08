@@ -1,4 +1,4 @@
-import { test, expect } from '../baseTests/BaseTest.spec'
+import { test, expect } from '../baseTests/BaseTest'
 
 let productName = "Nexus 6"
 let productPositionInCart=1

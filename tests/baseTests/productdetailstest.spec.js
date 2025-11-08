@@ -1,7 +1,7 @@
-import { test, expect } from '../baseTests/BaseTest.spec';
+import { test, expect } from '../baseTests/BaseTest';
 
 test('Get Product Details', async ({ homePage, productDetailsPage }) => {
-  let price = '650';
+  let price = 650;
   let title = 'Nexus 6';
   let description
   await test.step('Click on a product', async () => {

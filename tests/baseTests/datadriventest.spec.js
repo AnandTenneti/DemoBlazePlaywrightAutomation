@@ -1,4 +1,4 @@
-import { test, expect } from './BaseTest.spec';
+import { test, expect } from './BaseTest';
 import { categoryData, loginData } from '../../testdata/testdata';
 
 test.describe('🧩 Data-driven test: Category search results', () => {

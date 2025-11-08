@@ -1,4 +1,4 @@
-import { test, expect } from '../tests/BaseTest.spec'
+import { test } from '../baseTests/BaseTest'
 
 test('Verify contact us ', async ({ headerPage, contactUsPage }) => {
     let senderEmail = "test@test.com", senderName = "Anand", senderMessage = "This is a demo message"
@@ -7,6 +7,6 @@ test('Verify contact us ', async ({ headerPage, contactUsPage }) => {
     })
     await test.step('Fill details and send message', async () => {
         await contactUsPage.
-            sendMessageToSite(senderEmail, senderName, senderMessage)
+            sendContactMessage(senderEmail, senderName, senderMessage)
     })
 })

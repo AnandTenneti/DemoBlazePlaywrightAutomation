@@ -14,7 +14,7 @@ test.describe('Standalone Tests', () => {
         await homePage.goToApplicationPage()
     })
 
-    test.only('Verify successful login and logout', async ({ page }) => {
+    test('Verify successful login and logout', async ({ page }) => {
         await test.step('Open login modal', async () => {
             await headerPage.clickOnLoginLink()
         })

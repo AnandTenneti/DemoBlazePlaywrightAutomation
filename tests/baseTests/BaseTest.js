@@ -8,6 +8,7 @@ import { ContactUs } from '../../pages/ContactUsPage';
 import { CartPage } from '../../pages/CartPage';
 import {PlaceOrder} from '../../pages/PlaceOrder'
 import { categoryData } from '../../testdata/testdata';
+import { toNumber } from '../../utils/utilities';
 
 
 // Extend Playwright's base test
