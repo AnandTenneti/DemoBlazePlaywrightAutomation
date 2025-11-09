@@ -15,7 +15,7 @@ test('Verify Product added to cart', async ({ cartPage }) => {
 test('Get product details', async ({ cartPage }) => {
   let sumOfProductPricesInCart, totalPrice;
   await test.step('Get the sum of all prices of items in the cart', async () => {
-    sumOfProductPricesInCart = await cartPage.getProductPrice();
+    sumOfProductPricesInCart = await cartPage.calculateTotalProductPrice();
   });
   await test.step('Get total price in the cart', async () => {
     totalPrice = await cartPage.getTotalPrice();
