@@ -27,7 +27,7 @@ test.describe('🧩 Data-driven test: Category search results', () => {
 
 test.describe('🔐 Data-driven test: Login test results', () => {
   for (const data of loginData) {
-    test.only(`Verify login with username "${data.email}" and password "${data.password}"`, async ({
+    test(`Verify login with username "${data.email}" and password "${data.password}"`, async ({
       loginPage,
     }) => {
       await test.step(`Attempt to login as ${data.email}`, async () => {
