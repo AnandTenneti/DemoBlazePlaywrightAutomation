@@ -27,7 +27,7 @@ test.describe('Standalone Tests', () => {
         })
 
     })
-    test.only('Verify user signup without providing details', async ({ }) => {
+    test('Verify user signup without providing details', async ({ }) => {
         await test.step('Click on SignupLink in HomePage', async () => {
             await headerPage.clickOnSignupLink()
         })
