@@ -40,7 +40,7 @@ test.describe('Standalone Tests', () => {
 
     })
 
-    test.only('Get Product Category', async () => {
+    test('Get Product Category', async () => {
         const categoryName = "Phones"
         await test.step('Select Phone category', async () => {
             await homePage.selectCategories(categoryName)

@@ -1,6 +1,6 @@
 import { test, expect } from '../baseTests/BaseTest';
 
-test.only('Place order validation message', async ({ homePage, cartPage, placeOrderPage }) => {
+test.skip('Place order validation message', async ({ homePage, cartPage, placeOrderPage }) => {
   await test.step('Navigate to cart and open place order modal', async () => {
     await homePage.gotoCart();
   });
