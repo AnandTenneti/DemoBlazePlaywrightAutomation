@@ -22,7 +22,7 @@ It validates the core functionalities of the Demoblaze web application, includin
 | 🌐 **Cross-Browser & Parallel Execution** | Run tests faster across multiple browsers             |
 | ⚙️ **Configurable Test Data**             | Supports JSON files or environment variables          |
 | 🔄 **Custom Utility Functions**           | Includes helpers for waits, data parsing, and logging |
-| 🚧 **CI/CD Ready**                        | Integrated with GitHub Actions workflow               |
+| ✅ **CI/CD Ready**                        | Integrated with GitHub Actions workflow               |
 
 
 ## Project Structure
