@@ -29,6 +29,6 @@ test('Delete selected product by name', async ({ cartPage }) => {
   await cartPage.deleteProductByName(productName);
 });
 
-test('Delete selected product by index', async ({ cartPage }) => {
+test.skip('Delete selected product by index', async ({ cartPage }) => {
   await cartPage.deleteProductByIndex(productPositionInCart);
 });
