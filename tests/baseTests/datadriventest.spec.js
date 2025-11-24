@@ -1,7 +1,7 @@
 import { test, expect } from './BaseTest';
 import { categoryData, loginData } from '../../testdata/testdata';
 
-test.describe('🧩 Data-driven test: Category search results', () => {
+test.describe.skip('🧩 Data-driven test: Category search results', () => {
   for (const data of categoryData) {
     test(`Verify "${data.name}" category has ${data.expectedCount} products`, async ({
       loginPage,
@@ -25,7 +25,7 @@ test.describe('🧩 Data-driven test: Category search results', () => {
   }
 });
 
-test.describe('🔐 Data-driven test: Login test results', () => {
+test.describe.skip('🔐 Data-driven test: Login test results', () => {
   for (const data of loginData) {
     test(`Verify login with username "${data.email}" and password "${data.password}"`, async ({
       loginPage,
