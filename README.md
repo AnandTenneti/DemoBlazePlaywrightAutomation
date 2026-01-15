@@ -41,6 +41,17 @@ playwright-demoblaze/
 ├── README.md
 ```
 
+## Test Structure
+
+This project follows the Page Object Model (POM) design pattern.
+
+### Folder Overview
+- `pages/` – Page Object classes (locators + actions)
+- `tests/` – Test specifications
+- `testdata/` – Test input data (JSON)
+- `utils/` – Helper utilities
+
+
 ## Installation
 
 ```
