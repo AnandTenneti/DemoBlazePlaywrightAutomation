@@ -1,15 +1,14 @@
 name: "Github Actions Test"
 
-on:  workflow_dispatch
+on:
+  workflow_dispatch:
 
 jobs:
-   test:
-     runs-on: ubuntu-latest
-     steps:
-       - name : "Get the repository name"
-         run: echo "Repo: ${{ github.repository }}"
-       - name: "Get the github actor"
-         run: echo "Triggered by: ${{ github.actor }}"
-       
-     
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Get the repository name"
+        run: echo "Repo: ${{ github.repository }}"
 
+      - name: "Get the github actor"
+        run: echo "Triggered by: ${{ github.actor }}"
